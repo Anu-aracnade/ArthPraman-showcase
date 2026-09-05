@@ -1,4 +1,4 @@
-# ArthPraman
+# अर्थPraman
 
 ### Making financial evidence ready for credit decisions.
 
@@ -98,4 +98,83 @@ Financial Evidence
        ├───────────────┐
        ▼               ▼
  Evidence Report   Verification
-                       QR
+                       QR                     
+```
+
+## Public Showcase Repository
+
+This repository is the **public showcase and presentation repository for ArthPraman**.
+
+It is intended to provide a clear, verifiable overview of the product, its purpose, architecture, development process, technical decisions, and working capabilities.
+
+The **complete ArthPraman application source code is maintained separately in a private development repository**. The private repository is also where the active application implementation and deployment are maintained.
+
+This public repository intentionally does **not** expose the complete production implementation or internal technical details required to reproduce the system.
+
+The separation is intentional:
+
+```text
+Public Showcase Repository
+        │
+        ├── Product presentation
+        ├── Architecture overview
+        ├── Technical concepts
+        ├── Development history
+        ├── Screenshots & assets
+        └── Public project information
+                 │
+                 ▼
+      Private Development Repository
+                 │
+                 ├── Complete application source
+                 ├── Full implementation
+                 ├── Internal project configuration
+                 └── Production deployment
+```
+
+> **Public documentation is provided to demonstrate the project and does not imply that the underlying implementation is open source.**
+
+---
+
+## Development Timeline
+
+ArthPraman was developed as an iterative project from initial implementation through MVP stabilization.
+
+### August 16, 2026 — Development Started
+
+Initial development of the ArthPraman product began, moving from the defined product concept into implementation.
+
+### August 16 – September 2, 2026 — MVP Development & Refinement
+
+The core product was progressively implemented and refined across:
+
+- Financial evidence ingestion
+- Data normalization
+- Duplicate detection
+- Cross-source reconciliation
+- Evidence health analysis
+- Financial Evidence Readiness
+- Evidence report generation
+- Verification workflow
+- Authentication and business workflows
+- Product interface and user experience
+
+The implementation was tested and refined through repeated debugging and validation of the end-to-end workflow.
+
+### September 2, 2026 — MVP Freeze
+
+After the initial development and debugging cycle, the working MVP was considered complete and frozen.
+
+The current public showcase documents this **MVP state** of ArthPraman.
+
+---
+
+## Project Ownership
+
+**अर्थPraman** is an independently developed project by **Anubhab Pathak**.
+
+I designed and developed the project end-to-end, including the product concept, architecture, core financial evidence workflows, reconciliation system, Financial Evidence Readiness methodology, verification flow, reporting system, and application implementation.
+
+The complete production source code is maintained in a private repository. This public repository serves as the official showcase and technical record of **अर्थPraman**.
+
+Creator & Owner — **Anubhab Pathak**
